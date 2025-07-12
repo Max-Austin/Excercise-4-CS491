@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const PORT = 3000;
+const port = 3000;
 
 const tokenPath = path.join(__dirname, 'token.json');
 
@@ -31,4 +31,4 @@ app.get('/getToken', (req, res) => {
   res.json(token);
 });
 
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+app.listen(port, () => console.log(`Server running on http://localhost:${port}`));

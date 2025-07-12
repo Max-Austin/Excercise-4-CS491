@@ -1,3 +1,6 @@
+//By Max Austin
+//7-12-2025
+
 import TokenState from './tokenState.js';
 
 const pingButton = document.getElementById('pingButton');
